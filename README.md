@@ -49,33 +49,30 @@ To correct the school summary table for THS passing percentages, new calculation
 The remaining tables show relationships with the revised data.
 
 
-Math Scores by Grade            |  Reading Scores by Grade
-:-------------------------:|:-------------------------:
+**Math Scores by Grade**            |  **Reading Scores by Grade**
+:----------------------------------:|:---------------------------------:
 ![math_scores](Resources/math_scores_by_grade.png)  |  ![reading_scores](Resources/reading_scores_by_grade.png)
 
 
-
-
-
-
-
-
-
-
-
-Scores by School Spending
+**Scores by School Spending**
 
 ![by_spending](Resources/by_spending.png)
 
-Scores by School Size
+**Scores by School Size**
 
 ![by_size](Resources/by_school_size.png)
 
-Scores by School Type
+**Scores by School Type**
 
 ![by_type](Resources/by_school_type.png)
 
 ## Summary
+
+-  Increased spending did not appear to correspond to an improvement in average scores and for this data set, shows a negative correlation with passing percentages.
+
+-  Smaller school size also correlates with higher average scores and passing percentages.
+  
+-  Charter schools have only slightly higher average test scores, but show stronger passing percentages over District schools.  Sorting the school summary table by size, you can 
 
 The 9th grade THS student population is a small subset of the whole district and removing that data did not create significant changes in any of the data summaries.  It remains the second top school in overall passing percentages.  
 
