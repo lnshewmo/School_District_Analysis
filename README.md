@@ -8,10 +8,12 @@ After this initial analysis was completed, it was determined that the reading an
 
 # Resources
 
-Data Sources : [schools_complete.csv](https://github.com/lnshewmo/School_District_Analysis/blob/main/Resources/schools_complete.csv), [students_complete.csv](https://github.com/lnshewmo/School_District_Analysis/blob/main/Resources/students_complete.csv)
-Software: Python 3.9.12, JupyterLab
+- Data Sources : [schools_complete.csv](https://github.com/lnshewmo/School_District_Analysis/blob/main/Resources/schools_complete.csv), [students_complete.csv](https://github.com/lnshewmo/School_District_Analysis/blob/main/Resources/students_complete.csv)
+- Software: Python 3.9.12, JupyterLab
 
 # Results
+
+The completed script for the analysis is available **[here](https://github.com/lnshewmo/School_District_Analysis/blob/main/PyCitySchools_Challenge.ipynb).**
 
 ## District Summary
 
@@ -23,17 +25,21 @@ Revised District Summary
 
 ![revised_summary](/Resources/district_summary_reanalysis.png)
 
-Removing the figures from the THS 9th graders did not significantly impact the overall distric summary.  This is not surprising because there are only 461 9th graders at THS out of a total district population of 39,170 students.
+Removing the figures from the THS 9th graders did not significantly impact the overall district summary.  This is not surprising because there are only 461 9th graders at THS out of a total district population of 39,170 students.
 
 ## School Summary
 
 The school summary was not affected by the compromised THS data.  The scores for all high schools aside from THS did not change.  
 
-![school_summary](
+![school_summary](Resources/school_summary.png)
 
 Replacing the THS 9th grade scores with NaN pulled the remaining THS percentages down because the calculations were not accurately reflecting the whole student population at this point.  The analysis for THS would have to be performed outside this set on just the 10-12th grade students.
 
+![THS_summary](Resources/school_summary_reanalysis.png)
+
 ## Thomas High School Reanalysis
+
+To correct the school summary table for THS passing percentages, new calculations were completed based on only the remaining 1174 10-12th grade students.  This data was added back to the school summary table using `.loc` statements.  
 
 
 
