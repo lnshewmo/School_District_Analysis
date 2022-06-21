@@ -50,7 +50,7 @@ The remaining tables show relationships with the revised data.
 
 Math Scores by Grade
 
-![math_scores](Resources/math_scores_by_grade.png)
+![math_scores](Resources/test.png)
 
 Reading Scores by Grade
 
