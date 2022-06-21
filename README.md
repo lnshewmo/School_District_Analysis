@@ -19,7 +19,7 @@ The completed script for the analysis is available **[here](https://github.com/l
 
 Initial District Summary
 
-![district_summary](/Resources/district_summary.png)
+![district_summary](/Resources/initial_district_summary.png)
 
 Revised District Summary
 
