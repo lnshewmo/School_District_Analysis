@@ -48,13 +48,20 @@ To correct the school summary table for THS passing percentages, new calculation
 
 The remaining tables show relationships with the revised data.
 
-Math Scores by Grade
 
-![math_scores](Resources/test.png)
+Math Scores by Grade            |  Reading Scores by Grade
+:-------------------------:|:-------------------------:
+![math_scores](Resources/math_scores_by_grade.png)  |  ![reading_scores](Resources/reading_scores_by_grade.png)
 
-Reading Scores by Grade
 
-![reading_scores](Resources/reading_scores_by_grade.png)
+
+
+
+
+
+
+
+
 
 Scores by School Spending
 
