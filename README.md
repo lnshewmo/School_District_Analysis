@@ -32,7 +32,8 @@ This is not surprising because there are only 461 9th graders at THS out of a to
 
 The school summary did not change with the exception of THS percentages.
 
-This table shows the school summary after the 9th grade THS data was removed.
+This table shows the school summary after the 9th grade THS data was replaced with `Nan`s.
+It has been sorted in decending order of total students.
 
 ![school_summary](Resources/school_summary.png)
 
@@ -40,9 +41,9 @@ Replacing the THS 9th grade scores with NaN falsely pulled the passing percentag
 
 ### Thomas High School Reanalysis
 
-To correct the school summary table for THS passing percentages, new calculations were completed based on only the remaining 1174 10-12th grade students.  The new passing percentages were added back to the school summary table using `.loc` statements.  This table shows the complete school summary after revision of the THS percentages.
+To correct the school summary table for THS passing percentages, new calculations were completed based on only the remaining 1174 10-12th grade students.  The new passing percentages were added back to the school summary table using `.loc` statements.  This table shows the complete school summary after revision of the THS percentages.  It is sorted in decending order of % Overall Passing.  
 
-![revised_school_summary](Resources/revised_school_summary.png)
+![revised_school_summary](Resources/school_summary_sort_overall_passing.png)
 
 The remaining tables show relationships with the revised data.
 
@@ -72,4 +73,4 @@ The remaining tables show relationships with the revised data.
   
 -  Charter schools have only slightly higher average test scores, but show stronger passing percentages over District schools.  Reviewing the School Summary table above, Charter schools also correspond to smaller student populations.  
 
--  The 9th grade THS student population is a small subset of the whole district and removing that data did not create significant changes in any of the data summaries.  THS remains the second top school in overall passing percentages.  
+-  The 9th grade THS student population is a small subset of the whole district and removing that data did not create significant changes in any of the data summaries.  THS remains the second top school in overall passing percentage.
