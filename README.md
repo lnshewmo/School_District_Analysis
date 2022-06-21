@@ -32,13 +32,11 @@ This is not surprising because there are only 461 9th graders at THS out of a to
 
 The school summary did not change with the exception of THS percentages.
 
-This table shows the school summary before the 9th grade THS data was removed.
+This table shows the school summary after the 9th grade THS data was removed.
 
 ![school_summary](Resources/school_summary.png)
 
-Replacing the THS 9th grade scores with NaN pulled the passing percentages down because the calculations were not accurately reflecting the whole student population at this point.  The analysis for THS would have to be performed outside this set on just the 10-12th grade students.  This entry shows THS passing percentages after the 9th grade scores were replaced with NaNs. 
-
-![THS_summary](Resources/school_summary_reanalysis.png)
+Replacing the THS 9th grade scores with NaN falsely pulled the passing percentages down because the calculations were not accurately reflecting the selected student population at this point.  The analysis for THS would have to be performed outside this set on just the 10-12th grade students.  
 
 ### Thomas High School Reanalysis
 
