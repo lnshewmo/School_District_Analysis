@@ -46,6 +46,8 @@ To correct the school summary table for THS passing percentages, new calculation
 
 ![revised_school_summary](Resources/revised_school_summary.png)
 
+The remaining tables show relationships with the revised data.
+
 Math Scores by Grade
 
 ![math_scores](Resources/math_scores_by_grade.png)
@@ -66,8 +68,9 @@ Scores by School Type
 
 ![by_type](Resources/by_school_type.png)
 
-
 ## Summary
+
+The 9th grade THS student population is a small subset of the whole district and removing that data did not create significant changes in any of the data summaries.  It remains the second top school in overall passing percentages.  
 
 Changes in the analysis after THS 9th grade scores were removed.
 1.
