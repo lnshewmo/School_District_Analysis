@@ -33,7 +33,7 @@ This is not surprising because there are only 461 9th graders at THS out of a to
 The school summary did not change with the exception of THS percentages.
 
 This table shows the school summary after the 9th grade THS data was replaced with `Nan`s.
-It has been sorted in decending order of total students.
+It has been sorted in decending order of total students to further illustrate the the correlation between school size and type.
 
 ![school_summary](Resources/school_summary.png)
 
@@ -41,7 +41,7 @@ Replacing the THS 9th grade scores with NaN falsely pulled the passing percentag
 
 ### Thomas High School Reanalysis
 
-To correct the school summary table for THS passing percentages, new calculations were completed based on only the remaining 1174 10-12th grade students.  The new passing percentages were added back to the school summary table using `.loc` statements.  This table shows the complete school summary after revision of the THS percentages.  It is sorted in decending order of % Overall Passing.  
+To correct the school summary table for THS passing percentages, new calculations were completed based on only the remaining 1174 10-12th grade students.  The new passing percentages were added back to the school summary table using `.loc` statements.  This table shows the complete school summary after revision of the THS percentages.  It is sorted in decending order of % Overall Passing to further illustrate high and low performing schools.  
 
 ![revised_school_summary](Resources/school_summary_sort_overall_passing.png)
 
