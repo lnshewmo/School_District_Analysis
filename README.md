@@ -29,17 +29,20 @@ Removing the figures from the THS 9th graders did not significantly impact the o
 
 ## School Summary
 
-The school summary was not affected by the compromised THS data.  The scores for all high schools aside from THS did not change.  
+The school summary did not change with the exception of THS percentages.
+This table shows the school summary before the 9th grade THS data was removed.
 
 ![school_summary](Resources/school_summary.png)
 
-Replacing the THS 9th grade scores with NaN pulled the remaining THS percentages down because the calculations were not accurately reflecting the whole student population at this point.  The analysis for THS would have to be performed outside this set on just the 10-12th grade students.
+Replacing the THS 9th grade scores with NaN pulled the passing percentages down because the calculations were not accurately reflecting the whole student population at this point.  The analysis for THS would have to be performed outside this set on just the 10-12th grade students.  This entry shows THS passing percentages after the 9th grade scores were replaced with NaNs. 
 
 ![THS_summary](Resources/school_summary_reanalysis.png)
 
 ## Thomas High School Reanalysis
 
-To correct the school summary table for THS passing percentages, new calculations were completed based on only the remaining 1174 10-12th grade students.  This data was added back to the school summary table using `.loc` statements.  
+To correct the school summary table for THS passing percentages, new calculations were completed based on only the remaining 1174 10-12th grade students.  The new passing percentages were added back to the school summary table using `.loc` statements.  This table shows the complete school summary after revision of the THS percentages.
+
+![revised_school_summary](
 
 
 
