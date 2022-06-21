@@ -72,6 +72,6 @@ The remaining tables show relationships with the revised data.
 
 -  Smaller school size also correlates with higher average scores and passing percentages.
   
--  Charter schools have only slightly higher average test scores, but show stronger passing percentages over District schools.  Reviewing the School Summary table, Charter schools also correspond to smaller student populations.  
+-  Charter schools have only slightly higher average test scores, but show stronger passing percentages over District schools.  Reviewing the Initial School Summary table above, Charter schools also correspond to smaller student populations.  
 
 -  The 9th grade THS student population is a small subset of the whole district and removing that data did not create significant changes in any of the data summaries.  THS remains the second top school in overall passing percentages.  
